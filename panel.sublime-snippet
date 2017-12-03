@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="box box-${1:default} color-palette-box">
+  <div class="box-header with-border">
+    <h3 class="box-title"><i class="fa fa-tag"></i> ${2:title}</h3>
+  </div>
+  <div class="box-body">
+  	${3:default}
+  </div>
+  <div class="box-footer">          
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>panel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

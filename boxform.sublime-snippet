@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<div class="box box-primary">
+  <div class="box-header with-border">
+    <h3 class="box-title">${1:Title}</h3>
+  </div>
+  <!-- /.box-header -->
+  <!-- form start -->
+  <form role="form">
+    <div class="box-body">
+      <div class="form-group">
+        <label for="${2:name}">${3:name}</label>
+        <input name="${2:name}" type="${4:text}" class="form-control" id="${2:name}" placeholder="Enter ${3:name}">
+      </div>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>boxform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.html</scope>
+</snippet>

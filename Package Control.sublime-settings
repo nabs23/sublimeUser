@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"auto-save",
+		"Emmet",
+		"Laravel Blade AutoComplete",
+		"Laravel Blade Highlighter",
+		"Material Theme",
+		"Package Control",
+		"Theme - Soda"
+	]
+}
